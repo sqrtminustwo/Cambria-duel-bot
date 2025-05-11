@@ -19,7 +19,7 @@ def get_selector_by(selector: str) -> By:
 
 def spawn_browser(profile_id):
     fp = webdriver.FirefoxProfile(
-        "C:\\Users\\mixer\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\" + profile_id
+        "C:\\Users\\username\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\" + profile_id
     )
     fp.set_preference("toolkit.startup.max_resumed_crashes", "-1")
     fp.set_preference("browser.shell.checkDefaultBrowser", "false")
